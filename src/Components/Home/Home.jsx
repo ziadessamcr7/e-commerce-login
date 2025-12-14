@@ -37,7 +37,7 @@ export default function Home() {
 
   {/* {allProducts ? <section>
     <div className="container py-4">
-      <div className="row gy-4">
+      <div className="row gy-4  ">
  
         {allProducts.map( function( product , idx ){ return    <div key={idx} className="col-md-3">
             <div className="text-success">
