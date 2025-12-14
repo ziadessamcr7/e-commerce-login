@@ -31,6 +31,7 @@ const router = createBrowserRouter([
   {
     path: '', element: <Layout />, children: [
       { path: '/', element: <Login /> },
+      { path: 'FreshCart', element: <Login /> },
       { path: 'FreshCart/login', element: <Login /> },
       { path: 'FreshCart/register', element: <Register /> },
       {
